@@ -9,7 +9,7 @@ const Navbar = () => {
       transition={{ duration: 0.6 }}
       className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl"
     >
-      <div className="glass rounded-full px-8 py-4 flex items-center justify-between">
+      <div className="glass rounded-full px-8 py-3x  flex items-center justify-between">
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="text-2xl font-bold tracking-tight"

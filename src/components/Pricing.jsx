@@ -77,7 +77,7 @@ const Pricing = () => {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               whileHover={{ y: -10 }}
               className={`relative ${
-                plan.popular ? 'p-[2px] rounded-3xl bg-gradient-to-br from-[#2563EB] to-[#F97316]' : ''
+                plan.popular ? 'p-0.5 rounded-3xl bg-gradient-to-br from-[#2563EB] to-[#F97316]' : ''
               }`}
             >
               {plan.popular && (

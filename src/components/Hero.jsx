@@ -93,7 +93,7 @@ const Hero = () => {
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(249, 115, 22, 0.6)' }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 rounded-full bg-gradient-to-r from-[#2563EB] to-[#F97316] text-white font-semibold text-lg shadow-xl"
+            className="px-8 py-4 rounded-full bg-linear-to-r from-[#2563EB] to-[#F97316] text-white font-semibold text-lg shadow-xl"
           >
             Start Your Journey
           </motion.button>
